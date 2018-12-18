@@ -25,9 +25,9 @@ public final class Constants {
     public static final boolean isLightClient = Nxt.getBooleanProperty("nxt.isLightClient");
     public static final String customLoginWarning = Nxt.getStringProperty("nxt.customLoginWarning", null, false, "UTF-8");
 
-    public static final String COIN_SYMBOL = "NxtCloneCoin";
-    public static final String ACCOUNT_PREFIX = "NXT";
-    public static final String PROJECT_NAME = "NxtClone";
+    public static final String COIN_SYMBOL = "PixelShare";
+    public static final String ACCOUNT_PREFIX = "PXS";
+    public static final String PROJECT_NAME = "PixelShare";
     public static final int MAX_NUMBER_OF_TRANSACTIONS = Nxt.getIntProperty("nxt.maxNumberOfTransactions", 255);
     public static final int MIN_TRANSACTION_SIZE = 176;
     public static final int MAX_PAYLOAD_LENGTH = MAX_NUMBER_OF_TRANSACTIONS * MIN_TRANSACTION_SIZE;
@@ -43,7 +43,7 @@ public final class Constants {
     public static final int MAX_BLOCKTIME_LIMIT = BLOCK_TIME + 7;
     public static final int BASE_TARGET_GAMMA = 64;
     public static final int MAX_ROLLBACK = Math.max(Nxt.getIntProperty("nxt.maxRollback"), 720);
-    public static final int GUARANTEED_BALANCE_CONFIRMATIONS = isTestnet ? Nxt.getIntProperty("nxt.testnetGuaranteedBalanceConfirmations", 1440) : 1440;
+    public static final int GUARANTEED_BALANCE_CONFIRMATIONS = isTestnet ? Nxt.getIntProperty("nxt.testnetGuaranteedBalanceConfirmations", 1440) : 1;
     public static final int LEASING_DELAY = isTestnet ? Nxt.getIntProperty("nxt.testnetLeasingDelay", 1440) : 1440;
     public static final long MIN_FORGING_BALANCE_NQT = 1000 * ONE_NXT;
 
