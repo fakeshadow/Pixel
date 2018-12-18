@@ -1,1 +1,12 @@
-{"balances":{},"publicKeys":[]}
+{
+    "balances": {
+         "NXT-CR7L-TQ7Q-QT5F-BNUJX": 30000000000000000,
+         "NXT-VMZQ-X3CD-JM2L-5D5SP": 30000000000000000,
+         "NXT-MWU4-VCX8-C36R-H56EY": 40000000000000000
+     },
+     "publicKeys": [
+         "e45cb97dc324ea4f828a18d1bc0bc5b376437b376d4db18e06838540375f6a16",
+         "08ab66df36f7f905e3f1504d105ac3c9b8162af28c7b33e278b5d2a90261b34b",
+         "2fda441db417abb4ee1c5f503f72c9bd9931f05db897c425f2c6e612ceb30f24"
+      ]
+ }
